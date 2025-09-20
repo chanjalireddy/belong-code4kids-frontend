@@ -1,0 +1,37 @@
+
+.navi{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            border: 3px solid #42A5F5;
+    margin-inline: 6rem;
+    border-radius: 2rem;
+    margin-block: 1rem;
+
+
+        }
+        .navi>span{
+            font-size: xx-large;
+    color: cornflowerblue;
+    
+        padding-top: 1rem;
+
+        }
+        .navi>p{
+                
+    font-size: larger;
+    background: cornflowerblue;
+    color: white;
+    margin-top: 1rem;
+    padding: -0.5rem;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+        }
+        .navi>p:hover{
+            cursor: pointer
+            ;
+            color: #fff;;
+            background-color: rgb(42, 179, 243);
+        }
